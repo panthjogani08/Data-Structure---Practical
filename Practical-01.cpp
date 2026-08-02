@@ -4,7 +4,6 @@ using namespace std;
 int main() {
     int arr[100], n, i, pos, item, key;
 
-    // Create array
     cout << "Enter the number of elements: ";
     cin >> n;
 
@@ -13,14 +12,12 @@ int main() {
         cin >> arr[i];
     }
 
-    // Traversal
-    cout << "\nArray elements are: ";
+    cout << "\nArray elements are: ";                // (Traversal)
     for (i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
 
-    // Insertion
-    cout << "\n\nEnter position to insert: ";
+    cout << "\n\nEnter position to insert: ";                   // (Insertion)
     cin >> pos;
     cout << "Enter element to insert: ";
     cin >> item;
@@ -37,8 +34,7 @@ int main() {
         cout << arr[i] << " ";
     }
 
-    // Deletion
-    cout << "\n\nEnter position to delete: ";
+    cout << "\n\nEnter position to delete: ";               //(Deletion)
     cin >> pos;
 
     for (i = pos - 1; i < n - 1; i++) {
@@ -52,8 +48,7 @@ int main() {
         cout << arr[i] << " ";
     }
 
-    // Search
-    cout << "\n\nEnter element to search: ";
+    cout << "\n\nEnter element to search: ";               //(Serch)
     cin >> key;
 
     for (i = 0; i < n; i++) {
