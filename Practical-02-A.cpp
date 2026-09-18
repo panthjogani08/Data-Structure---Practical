@@ -1,31 +1,26 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
-int main() {
-    int n;
-
-    cout<<"enter no of element : ";
+int main()
+{
+    int n, a[10];
+    
+    cout << "Enter number of elements: ";
     cin >> n;
 
-    int *a = (int*)malloc(n * sizeof(int));
-
-    cout<<"enter element : ";
-
-    if (a == NULL) {
-        cout << "Memory Allocation Failed";
-        return 0;
-    }
-
-    for (int i = 0; i < n; i++)
+    cout << "Enter elements: ";
+    for(int i = 0; i < n; i++)
         cin >> a[i];
 
-    cout<<"Array Elements in Reverse Order : ";
+    int *p = &a[n-1];
 
-    for (int i = n - 1; i >= 0; i--)
-        cout << a[i] << " ";
+    cout << "Array elements in reverse order: ";
 
-    free(a);
+    for(int i = 0; i < n; i++)
+    {
+        cout << *p << " ";
+        p--;
+    }
 
     return 0;
 }
