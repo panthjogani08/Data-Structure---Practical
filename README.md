@@ -12,8 +12,8 @@ sub-parts completed as part of my academic coursework.
 | Practical 03 | 03 |
 | Practical 04 | 04 |
 | Practical 05 | 05-A, 05-B |
-| Practical 06 | 06-A, 06-B, 06-C |
-| Practical 07 | 07-A, 07-B, 07-C |
+| Practical 06 | 06 |
+| Practical 07 | 07|
 | Practical 08 | 08 |
 | Practical 09 | 09 |
 | Practical 10 | 10-A, 10-B |
