@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-#define MAX 5
+#define MAX 10
 
 int q[MAX], front = -1, rear = -1;
 
@@ -65,15 +65,23 @@ int main()
     enqueue(20);
     enqueue(30);
     enqueue(40);
+    enqueue(50);
+    enqueue(60);
+    enqueue(70);
+    
 
     display();
 
     dequeue();
+     dequeue();
+      dequeue();
+       dequeue();
+    
 
     display();
 
-    enqueue(50);
-    enqueue(60);
+    enqueue(80);
+    enqueue(90);
 
     display();
 
